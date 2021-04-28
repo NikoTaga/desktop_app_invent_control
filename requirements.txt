@@ -1,0 +1,5 @@
+greenlet==1.0.0
+importlib-metadata==4.0.1
+SQLAlchemy==1.4.11
+typing-extensions==3.7.4.3
+zipp==3.4.1
