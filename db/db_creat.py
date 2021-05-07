@@ -1,8 +1,8 @@
 
-from sqlalchemy import create_engine, Column, Integer, String, ForeignKey
+from sqlalchemy import Column, String, Integer, ForeignKey, create_engine
 from sqlalchemy.ext.declarative import declarative_base
 
-ENGINE = create_engine('sqlite:///declarative_style_base.db3', echo=False)
+ENGINE = create_engine('sqlite:///data_base.db3', echo=False)
 
 BASE = declarative_base()
 
